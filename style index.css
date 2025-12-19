@@ -1,0 +1,77 @@
+﻿﻿﻿h1 {
+    color: darkblue;
+}
+
+.ma_classe {
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+p {
+    font-family: DM serif Text;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-size: 1.2rem;
+}
+
+a {
+    color: red;
+    font-size: 1.5rem;
+}
+
+header {
+    color: blue;
+    font-size: 3.5rem;
+    background-color: white;
+    text-align: center;
+    font-family: Bodoni Moda;
+}
+
+.bas-de-page {
+    color: greenyellow;
+    font-size: 1.2rem;
+}
+
+.text {
+    color: greenyellow;
+    font-size: 1.5rem;
+}
+
+footer {
+    background-color: black;
+}
+
+img {
+    background-color: white;
+}
+
+.fond {
+    background: black;
+}
+
+@media (min-width: 768px) {
+    body {
+        font-size: 1.125rem; /* Texte légèrement plus grand sur tablette */
+    }
+
+    header {
+        font-size: 2.5rem;
+    }
+}
+
+/* Media Query pour grands écrans (ex: 1200px et plus) */
+@media (min-width: 1200px) {
+    body {
+        font-size: 1.25rem;
+    }
+
+    header {
+        font-size: 3rem;
+    }
+}
